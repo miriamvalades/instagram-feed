@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background:whitesmoke;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+div.container {
+    width: 600px;
+    margin:auto;
+}
+div.post {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+div.post img {
+    width: 100%;
+}
+div.post .post-header div:first-child {
+    display:inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child {
+    display:inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color:gray;
+}
+div.post h2, div.post p, div.post span {
+    padding:10px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
